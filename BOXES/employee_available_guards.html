@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Guards</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+     <div class="main-container">
+          <div class="sidebar">
+               <div class="sidebar__logo">
+                   <div class="logo"></div>
+                   <h3>JDTV</h3>
+               </div>
+               <nav>
+                   <ul>
+                       <li class="li__records">
+                           <a href="#" class="">DASHBOARD</a>
+                       </li>
+                       <li class="li__records active">
+                           <a href="" class="active">RECORDS</a>
+                           <ul>
+                               <li><a href="#" class="active">Employee</a></li>
+                               <li><a href="#">Company</a></li>
+                               <li><a href="#">Secretary</a></li>
+                           </ul>
+                       </li>
+   
+                       <li class="li__report">
+                           <a href="">MANAGE REPORT</a>
+                           <ul>
+                               <li><a href="#">Leave</a></li>
+                               <li><a href="#">Remarks</a></li>
+                           </ul>
+                       </li>
+                       <li class="li__activities"><a href="#">ACTIVITIES</a></li>
+                   </ul>
+               </nav>
+               <div class="sidebar__logout">
+                   <div class="li li__logout"><a href="#">LOGOUT</a></div>
+               </div>
+          </div>
+
+          <div class="page-info-head">
+               Employee
+          </div>
+
+          <div class="user-info">
+               <p>Profile Name</p>
+               <div class="user-profile">
+               </div>
+          </div>
+
+          <div class="employee-available-guards">
+              <div class="employee-available-guards__header">
+                  <h1>Available Guards</h1>
+                  <input type="search" placeholder="search">
+              </div>
+              <div class="card">
+                  <div class="card__content">
+                      <table>
+                          <thead>
+                              <tr>
+                                  <th></th>
+                                  <th>Name</th>
+                                  <th>Email</th>
+                                  <th>Address</th>
+                                  <th>Action</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td><input type="checkbox"></td>
+                                  <td>Ilacad, Francis Albert S.</td>
+                                  <td>filacad22@gmail.com</td>
+                                  <td>Quirino Highway, Brgy. San Bartolome, Novaliches, Quezon City</td>
+                                  <td class="td-action">
+                                    <div class="ic ic__edit">
+                                        <a href="#" class="td-edit">
+                                            <span class="material-icons">edit</span>
+                                        </a>
+                                    </div>
+ 
+                                    <div class="ic ic__add">
+                                        <a href="#" class="td-view">
+                                            <span class="material-icons">visibility</span>
+                                        </a>
+                                    </div>
+ 
+                                    <div class="ic ic__delete">
+                                        <a href="#" class="td-delete">
+                                            <span class="material-icons">delete</span>
+                                        </a>
+                                    </div>
+                                </td>
+                              </tr>
+                          </tbody>
+                      </table>
+                  </div> 
+              </div>
+
+              <button>
+                  <a href="#">Assign Guards</a>
+              </button>
+          </div>
+     </div>
+</body>
+</html>

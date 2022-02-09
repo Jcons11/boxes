@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Remarks</title>
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+          <link rel="stylesheet" type="text/css" href="css/main.css">
+      </head>
+<body>
+     <div class="main-container">
+          <div class="sidebar">
+               <div class="sidebar__logo">
+                   <div class="logo"></div>
+                   <h3>JDTV</h3>
+               </div>
+               <nav>
+                   <ul>
+                       <li class="li__records">
+                           <a href="#" class="">DASHBOARD</a>
+                       </li>
+                       <li class="li__records">
+                           <a href="">RECORDS</a>
+                           <ul>
+                               <li><a href="#">Employee</a></li>
+                               <li><a href="#">Company</a></li>
+                               <li><a href="#">Secretary</a></li>
+                           </ul>
+                       </li>
+   
+                       <li class="li__report active">
+                           <a href="" class="active">MANAGE REPORT</a>
+                           <ul>
+                               <li><a href="managereport_leave.html">Leave</a></li>
+                               <li><a href="#" class="active">Remarks</a></li>
+                           </ul>
+                       </li>
+                       <li class="li__activities"><a href="#">ACTIVITIES</a></li>
+                   </ul>
+               </nav>
+               <div class="sidebar__logout">
+                   <div class="li li__logout"><a href="#">LOGOUT</a></div>
+               </div>
+          </div>
+
+          <div class="page-info-head">
+               Remarks
+          </div>
+   
+          <div class="user-info">
+               <p>Profile Name</p>
+               <div class="user-profile">
+               </div>
+          </div>
+
+          <div class="recentviolations">
+               <div class="recentviolations__header">
+                    <h1>Recent Violations</h1>
+                    <h2>#</h2>
+               </div>
+               
+               <div class="recentviolations__content">
+                    <p>You have # employees that have violations.</p>
+                    <button>
+                         <a href="#">Review</a>
+                    </button>
+               </div>
+          </div>
+
+          <div class="addviolations">
+               <div class="addviolations__header">
+                    <h1>Add New Violation</h1>
+                    <a href="#">modal</a>
+               </div>
+               <div class="addviolations__content">
+                    <p>Inform you employee about their bad behavior.</p>
+                    <button>
+                         <a href="#">Add</a>
+                    </button>
+               </div>
+          </div>
+
+          <div class="violationsbanner_header">
+               Banner
+          </div>
+
+          <div class="violations_banner">
+               <object data="SVG/remarks-svg.svg" type=""></object>
+               <div class="violations_banner__content">
+                    <h1>Avoid doing negative stuff. It makes our system sad.</h1>
+                    <p>Be responsible on every action that you make.</p>
+               </div>
+          </div>
+
+          <div class="mostviolations_header">
+               Most Violation
+          </div>
+
+          <div class="mostviolations_card">
+               <div class="user">
+                    <h3>Yanyan, Francis</h3>
+                    <p>Officer in Charge</p>
+               </div>
+
+               <div class="violation">
+                    <h3>Violation</h3>
+                    <p>Always Absent</p>
+               </div>
+               
+               <button>
+                    <a href="#">See All</a>
+               </button> 
+          </div>
+
+          <div class="violationtable_header">
+               Violations
+          </div>
+
+          <div class="violation_table">
+               <div class="header-violations-table">
+                    <h2>List of Violations</h2>
+                    <input type="search" placeholder="Search">
+                    <object data="SVG_modified/search.svg" type="" class="search-svg"></object>
+               </div>
+
+               <div class="violation_table__content">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Violation</th>
+                                <th>Email</th>
+                                <th>Date</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Francis Marianne</td>
+                                <td>Female</td>
+                                <td>fmarianne04@gmail.com</td>
+                                <td>12/05/2021</td>
+                                <td class="td-action">
+                                    <div class="ic ic__edit">
+                                        <a href="#" class="td-edit">
+                                            <span class="material-icons">edit</span>
+                                        </a>
+                                    </div>
+ 
+                                    <div class="ic ic__add">
+                                        <a href="#" class="td-view">
+                                            <span class="material-icons">visibility</span>
+                                        </a>
+                                    </div>
+ 
+                                    <div class="ic ic__delete">
+                                        <a href="#" class="td-delete">
+                                            <span class="material-icons">delete</span>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+               </div>
+          </div>
+     </div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>User Profile</title>
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+          <link rel="stylesheet" type="text/css" href="css/main.css">
+      </head>
+<body>
+     <div class="main-container">
+
+          <div class="sidebar">
+               <div class="sidebar__logo">
+                   <div class="logo"></div>
+                   <h3>JDTV</h3>
+               </div>
+                    <nav>
+                         <ul>
+                              <li class="li__records">
+                                   <a href="index.html" class="">DASHBOARD</a>
+                              </li>
+                              <li class="li__user">
+                                   <a href="" class="active">User Profile</a>
+                                   <ul>
+                                        <li><a href="#" class="active">Edit Profile</a></li>
+                                        <li><a href="changepassprofile.html" class="">Change Password</a></li>
+                                   </ul>
+                              </li>
+                         </ul>
+                    </nav>
+               <div class="sidebar__logout">
+                   <div class="li li__logout"><a href="#">LOGOUT</a></div>
+               </div>
+          </div>
+
+          <div class="page-info-head">
+               Edit Profile
+          </div>
+
+          <div class="user_edit_profile_header">
+               <h1>User Profile Details</h1>
+          </div>
+
+          <div class="edit-profile-card">
+               <div class="changeprofile">
+                    <object data="SVG/userprofilepic.svg" type=""></object>
+                    <a href="#">Change Profile Photo</a>
+               </div>
+
+               <div class="edit-profile-card__form">
+                    <label for="" >Name: </label>
+                    <input type="text">
+
+                    <label for="" name="address">Address: </label>
+                    <input type="text">
+
+                    <label for="">Contact Number : </label>
+                    <input type="text">
+
+                    <label for="" >Email: </label>
+                    <input type="text">
+
+                    <button class="btn_primary">
+                         <span class="material-icons"> description</span>
+                         Save Changes
+                    </button>
+               </div>
+              <div class="edit-profile-card__svg">
+                   <object data="SVG/edit_profile_svg.svg" type=""></object>
+              </div>
+          </div>
+     </div>
+</body>
+</html>
